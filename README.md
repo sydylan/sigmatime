@@ -13,3 +13,4 @@ To set up and install Go Vibe, follow these steps:
    
 # Technologies Used
 React
+stoic-quote-lambda-public-api : https://github.com/tlcheah2/stoic-quote-lambda-public-api#stoicism-quote-api-documentation
