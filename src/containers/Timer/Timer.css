@@ -1,0 +1,76 @@
+/* Timer.css */
+
+.pomodoro-timer-container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(22, 22, 22);;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #fff;
+  }
+  
+  .timer-display {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .timer-display span {
+    margin-left: 5px;
+  }
+  
+  .timer-controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .timer-controls button {
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  /* Active button style */
+  .timer-controls button.active {
+    background-color: #28a745; /* Green color for active button */
+  }
+  
+  /* Pause button style */
+  .timer-controls button.pause {
+    background-color: #ffc107; /* Yellow color for pause button */
+  }
+  
+  .timer-controls button:hover {
+    background-color: #0056b3;
+  }
+  
+  .timer-controls button:active {
+    background-color: #004b99;
+  }
+  
+
+.stoic-quote {
+    margin-bottom: 20px;
+    text-align: center;
+    font-style: italic;
+    font-size: 1rem;
+  }
+  
+  .stoic-quote p {
+    margin: 5px;
+  }
+
+.title{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}

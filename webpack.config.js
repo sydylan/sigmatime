@@ -124,6 +124,16 @@ var options = {
         ],
         exclude: /node_modules/,
       },
+      {
+        test: /\.(mp3)$/,
+        use: {
+          loader: 'file-loader',
+          options: {
+            name: '[name].[ext]',
+            outputPath: 'assets/audio',
+          },
+        },
+      },
     ],
   },
   resolve: {
